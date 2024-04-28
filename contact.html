@@ -42,11 +42,11 @@
             <div class="row">
               <!-- logo -->
               <div class="col-6">
-                <div class="bostami-header-logo">
+                <!-- <div class="bostami-header-logo">
                   <a class="site-logo" href="../index.html">
                     <img src="assets/img/logo/logo-2.png" alt="" />
                   </a>
-                </div>
+                </div> -->
               </div>
 
               <!-- menu btn -->
@@ -83,38 +83,43 @@
                 <!-- img -->
                 <div class="bostami-parsonal-info-img">
                   <img
-                    src="assets/img/parsonal-info/parson-img-3.png"
+                    src="assets/img/parsonal-info/profile.jpg"
                     alt="avatar"
                   />
                 </div>
 
                 <!-- name -->
                 <h4 class="bostami-parsonal-info-name">
-                  <a href="#">Monalisa Ashley</a>
+                  <a href="#">Hemant Mewada</a>
                 </h4>
                 <span class="bostami-parsonal-info-bio mb-15"
-                  >Ui/Ux Designer</span
+                  >Fullstack Developer</span
                 >
 
                 <!-- socail link -->
                 <ul class="bostami-parsonal-info-social-link mb-30">
-                  <li>
+                  <!-- <li>
                     <a href="#" class="facebook">
                       <i class="fa-brands fa-facebook-f"></i>
                     </a>
+                  </li> -->
+                  <li>
+                    <a target="_blank" href="https://github.com/hemantmewada/" class="twitter">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
                   </li>
                   <li>
-                    <a href="#" class="twitter">
+                    <a target="_blank" href="https://twitter.com/web_hemant/" class="twitter">
                       <i class="fa-brands fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="instagram">
+                    <a target="_blank" href="https://www.instagram.com/hemant_web/" class="instagram">
                       <i class="fa-brands fa-instagram"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="#" class="linkedin">
+                    <a target="_blank" href="https://www.linkedin.com/in/hemant-mewada/" class="linkedin">
                       <i class="fa-brands fa-linkedin-in"></i>
                     </a>
                   </li>
@@ -128,7 +133,7 @@
                     </div>
                     <div class="text">
                       <span>Phone</span>
-                      <p>+123 456 7890</p>
+                      <p><a href="tel:+91 74151 19928">+91 74151 19928</a></p>
                     </div>
                   </div>
 
@@ -138,7 +143,7 @@
                     </div>
                     <div class="text">
                       <span>Email</span>
-                      <p>example@mail.com</p>
+                      <p><a href="mailto:hmewada74@gmail.com">hmewada74@gmail.com</a></p>
                     </div>
                   </div>
 
@@ -148,7 +153,7 @@
                     </div>
                     <div class="text">
                       <span>Location</span>
-                      <p>Hong kong china</p>
+                      <p>Dewas, India</p>
                     </div>
                   </div>
 
@@ -158,14 +163,14 @@
                     </div>
                     <div class="text">
                       <span>Birthday</span>
-                      <p>May 27, 1990</p>
+                      <p>Sep 22, 2000</p>
                     </div>
                   </div>
                 </div>
 
                 <!-- cv button -->
                 <div class="bostami-parsonal-info-btn">
-                  <a class="btn-2" href="#">
+                  <a target="_blank" class="btn-2 circle" href="https://drive.google.com/file/d/12g3CYnSFhd2CqjhL10kNu4hvPmwtOmtg/view?usp=drive_link">
                     <span class="icon">
                       <i class="fa-regular fa-download"></i>
                     </span>
@@ -208,14 +213,6 @@
                         Works
                       </a>
                     </li>
-                    <li>
-                      <a href="blog.html">
-                        <span>
-                          <i class="fa-light fa-newspaper"></i>
-                        </span>
-                        Blogs
-                      </a>
-                    </li>
                     <li class="active">
                       <a href="contact.html">
                         <span>
@@ -242,17 +239,20 @@
               <div class="section-wrapper pr-60 pl-60 mb-60">
                 <div class="contact-area bg-light-white-2">
                   <h5 class="contact-title">
-                    I'm always open to discussing produuct
+                    I'm always open to discussing 
                   </h5>
-                  <h5 class="contact-title-b">design work or partnerships.</h5>
+                  <h5 class="contact-title-b">plese fill the form.</h5>
+                  <!-- action="https://formspree.io/f/xoqrgaab" -->
                   <form
+                    id="contact-form"
                     class="contact-form"
-                    action="https://formspree.io/f/xoqrgaab"
+                    action="https://formspree.io/f/xoqgrqjk"
                     method="post"
                   >
                     <div class="form-input-item mb-60">
-                      <label class="input-lebel name">name *</label>
+                      <label for="name" class="input-lebel name">name *</label>
                       <input
+                      id="name"
                         name="name"
                         class="input-box name"
                         type="text"
@@ -260,8 +260,9 @@
                       />
                     </div>
                     <div class="form-input-item mb-60">
-                      <label class="input-lebel gmail">Email *</label>
+                      <label for="email" class="input-lebel gmail">Email *</label>
                       <input
+                      id="email"
                         name="email"
                         class="input-box gmail"
                         type="Email"
@@ -269,8 +270,9 @@
                       />
                     </div>
                     <div class="form-input-item mb-40">
-                      <label class="input-lebel message">Message *</label>
+                      <label for="message" class="input-lebel message">Message *</label>
                       <textarea
+                      id="message"
                         name="message"
                         class="input-box message"
                         cols="30"
@@ -317,6 +319,7 @@
     <script src="assets/js/odometer.min.js"></script>
     <script src="assets/js/appear.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/developer.js"></script>
   </body>
 
 </html>
